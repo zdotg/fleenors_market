@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <header id="main-header">
+    <header id="main-header" class=".header-content">
        <nav>
-        <ul>
-            <li><a href="#about">story</a> </li>
-            <li><a href="#info">info</a></li>
-        </ul>
+            <ul>
+                <li><a href="#about">story</a> </li>
+                <li><a href="#info">info</a></li>
+            </ul>
        </nav>
     </header>
-    <section id="hero">
-        <h1>Fleenor's Market</h1>
-        <small>Compact, community-focused, and rooted in Durham pride.</small>
+    <section id="hero" class=".section">
+        <div class=".hero-content text-center .container">
+            <h1>Fleenor's Market</h1>
+            <h5>Compact, community-focused, and rooted in Durham pride.</h5>
+        </div>
     </section>
     <main>
-        <section id="about">
+        <section id="about" class=".section">
             <div>
                 <p>
                     A cozy space where good wine, snacks, and neighborhood
@@ -37,13 +39,13 @@
                 </p>
             </div>
         </section>
-        <section id="offerings">
+        <section id="offerings" class=".section .container">
             <!-- I want this section to be images of things we plan to offer. Possibly a carousel or a grid of some kind. -->
         </section>
-        <section id="info">
-            <div>hours</div>
-            <div>location</div>
-            <div>contact</div>
+        <section id="info" class=".info-grid .info-card .container .section">
+            <h3 class="text-center">hours</h3>
+            <h3 class="text-center">location</h3>
+            <h3 class="text-center">contact</h3>
         </section>
     </main>
     <footer></footer>
